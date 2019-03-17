@@ -1,0 +1,17 @@
+Refactor after STEP 1: Added stack array held in an int[], int to act as top stack ptr, IsEmpty() method.
+Refactor after STEP 2: Added push() method to add numbers into int array.
+Refactor after STEP 3: Added pop() method to remove numbers off the 'top' of the stack.
+Refactor after STEP 4: Changed pop() to return an int (number off top of stack) instead of void.
+Refactor after STEP 5: No structural changes.
+Refactor after STEP 6: Added if statement (error checking) in the pop() method to check if stack is empty.
+Refactor after STEP 7: Added top() method that prints value at 'top' of the stack.
+Refactor after STEP 8: Made top() method return the value at the 'top' of the stack (int).
+Refactor after STEP 9: Added if statement (error checking) in top() method to check if stack is empty.
+                       Changed error messages to return -9863 instead of -1 in the top() & pop() methods
+                       (random negative number is less likely to be added to the stack then -1).
+Refactor after STEP 10: Made an if statement (error checking) in push() method to check if stack is full.
+                        Would normally throw an exception if full stack is pushed, instead promts error
+                        message and returns.
+Refactor after STEP 11: No structural changes, added documentation and comments.
+
+
